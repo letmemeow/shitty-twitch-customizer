@@ -29,6 +29,7 @@ let currentStyles = {
           ),
           url("${currentStyles.bgImage}") !important;
         background-size: cover !important;
+        background-position: center !important; /* Ensure the image is centered */
         background-attachment: fixed !important;
         transform: translateZ(0); /* GPU acceleration */
       }
