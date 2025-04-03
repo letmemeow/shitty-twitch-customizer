@@ -17,7 +17,7 @@ A lightweight Chromium extension to personalize your Twitch chat experience (cur
 1. Download the latest [release .crx or .zip file](https://github.com/letmemeow/shitty-twitch-customizer/releases)  
 2. In your Chromium browser (Chrome/Edge/Brave/etc.):  
    - Go to `about://extensions`  
-   - Drag-and-drop downloaded there
+   - Drag-and-drop downloaded file there
 
 
 ### Method 2: Manual Installation (if Method 1 didn't work)
