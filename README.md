@@ -1,4 +1,4 @@
-# Twitch Chat Customizer  
+# Shitty Twitch Customizer
 
 A lightweight Chromium extension to personalize your Twitch chat experience (currently supports custom chat backgrounds).  
 
