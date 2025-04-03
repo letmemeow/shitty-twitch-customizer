@@ -1,54 +1,65 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <style>
-        body {
-            width: 250px;
-            padding: 15px;
-            background: #0e0e10;
-            color: white;
-            font-family: Arial, sans-serif;
-        }
-        h3 {
-            color: #9147ff;
-            margin-top: 0;
-        }
-        .slider-container {
-            margin: 15px 0;
-        }
-        input[type="range"] {
-            width: 100%;
-        }
-        button {
-            background: #9147ff;
-            color: white;
-            border: none;
-            padding: 8px;
-            margin-top: 10px;
-            border-radius: 4px;
-            cursor: pointer;
-            width: 100%;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      width: 250px;
+      padding: 15px;
+      background: #0e0e10;
+      color: white;
+      font-family: Arial, sans-serif;
+    }
+    .control-group {
+      margin: 10px 0;
+    }
+    input[type="file"] {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    .slider-container {
+      margin: 12px 0;
+    }
+    label {
+      display: block;
+      margin-bottom: 4px;
+    }
+    button {
+      background: #9147ff;
+      color: white;
+      border: none;
+      padding: 8px 12px;
+      border-radius: 4px;
+      cursor: pointer;
+      width: 100%;
+      margin-top: 10px;
+    }
+    #perfMode {
+      margin: 10px 0;
+    }
+  </style>
 </head>
 <body>
-    <h3>Twitch Chat Customizer</h3>
-    
+  <div class="control-group">
     <input type="file" id="imageInput" accept="image/*">
-    
-    <div class="slider-container">
-        <label>Darkness: <span id="darknessValue">0%</span></label>
-        <input type="range" id="darknessSlider" min="0" max="1" step="0.01" value="0.00">
-    </div>
+  </div>
 
-    <div class="slider-container">
-        <label>Blur: <span id="blurValue">0px</span></label>
-        <input type="range" id="blurSlider" min="0" max="10" step="0.5" value="0">
-    </div>
+  <div class="slider-container">
+    <label>Darkness: <span id="darknessValue">0%</span></label>
+    <input type="range" id="darknessSlider" min="0" max="1" step="0.01" value="0.00">
+  </div>
 
-    <button id="resetBtn">Reset to Default</button>
+  <div class="slider-container">
+    <label>Blur: <span id="blurValue">0px</span></label>
+    <input type="range" id="blurSlider" min="0" max="5" step="0.5" value="0">
+  </div>
 
-    <script src="popup.js"></script>
+  <div class="control-group">
+    <label><input type="checkbox" id="perfMode"> Performance Mode (limits blur to 3px)</label>
+  </div>
+
+  <button id="resetBtn">Reset Settings</button>
+
+  <script src="popup.js"></script>
 </body>
 </html>
