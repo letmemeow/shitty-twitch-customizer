@@ -31,7 +31,7 @@ A lightweight Chromium extension to personalize your Twitch chat experience (cur
    - Select the extracted folder
 
 ### Method 3: Microsoft Edge Add-ons 
-*(Coming soon)*  
+[*click here!* ](https://microsoftedge.microsoft.com/addons/detail/shitty-twitch-customizer/ffgmlhfdnfnmdplmbekgfdepghafhcgo) 
 
 ## Usage  
 1. Click the extension icon in your browser's toolbar  
